@@ -8,7 +8,7 @@ def rom_to_int(string):
                 if string[0:len(pair[0])]==pair[0]:
                     returnint+=pair[1]
                     string=string[len(pair[0]):]
-                else: continueyes=False
+                
             else: continueyes=False
 
     return returnint
