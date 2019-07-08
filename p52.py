@@ -1,0 +1,12 @@
+ps1,r1=list(map(int,input().split()))
+ps2,r2=list(map(int,input().split()))  
+ps3,r3=list(map(int,input().split()))  
+ps4,r4=list(map(int,input().split())) 
+a=r2-r1
+b=r3-r4
+c=ps3-ps2
+d=ps4-ps1
+if(a==b==c==d):
+  print("yes")
+else:
+  print("no")
