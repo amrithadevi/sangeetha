@@ -1,0 +1,13 @@
+nb=(input())
+if(nb==nb[::-1]):
+    print("yes")
+else:
+    s=n.strip('0')
+    if(s==s[::-1]):
+        print("yes")
+    else:
+        f=nb.lstrip('0')
+        if(f==f[::-1]):
+            print("yes")
+        else:
+            print("no")
